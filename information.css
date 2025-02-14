@@ -1,0 +1,89 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f3f4f6;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1, h2 {
+    color: #1f2937;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.75em;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1f2937;
+    padding-bottom: 5px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section p, .section ul, .section ol {
+    margin: 15px 0;
+    line-height: 1.6;
+}
+
+.section ul, .section ol {
+    padding-left: 20px;
+}
+
+.section ul li, .section ol li {
+    margin-bottom: 10px;
+}
+
+.section ol li::marker {
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.section ul li::marker {
+    font-weight: bold;
+    color: #4b5563;
+}
+
+.section p {
+    font-size: 1.1em;
+    color: #4b5563;
+}
+
+.container {
+    border-left: 6px solid #1f2937;
+    padding-left: 16px;
+}
+
+a {
+    color: #1f2937;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #3b82f6;
+}
+
+/* Font import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap');
+
